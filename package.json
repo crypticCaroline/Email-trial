@@ -1,0 +1,8 @@
+{
+  "name": "email-app",
+  "version": "1.0.0",
+  "description": "A simple React app to send emails",
+  "main": "server.js",
+  "scripts": {
+    "install-all": "npm install && cd client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
